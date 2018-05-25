@@ -1,0 +1,8 @@
+Debug Novus requests on server
+---------------------
+NovusApiSearchSearvice.doSearch()
+
+
+Debug queries to Novus2
+----------------------
+StandardRulesProcessor.processQueryString()
