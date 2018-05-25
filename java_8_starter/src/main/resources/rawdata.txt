@@ -6,3 +6,7 @@ NovusApiSearchSearvice.doSearch()
 Debug queries to Novus2
 ----------------------
 StandardRulesProcessor.processQueryString()
+
++ merge NO_GVE fix into the latest shelveset (2/2)
++ test new shelveset & commit the changes @wlanz (2/2)
++ merge Sharlene`s changes into the latest shelveset @wlanz (4)
