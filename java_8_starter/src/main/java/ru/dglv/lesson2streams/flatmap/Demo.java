@@ -1,4 +1,4 @@
-package ru.dglv.lesson2_streams.flatmap;
+package ru.dglv.lesson2streams.flatmap;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,7 +7,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
 public class Demo {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Album metallica1986 = new Album("Master of Puppets", "Metallica");
         String[] metallicaSongs1986 = {"Battery",
                 "Master of Puppets",
@@ -21,7 +21,7 @@ public class Demo {
         Arrays.stream(metallicaSongs1986).forEach(metallica1986::addTrack);
 
         Album metallica2016 = new Album("Hardwired...To Self-Destruct", "Metallica");
-        String[] metallicaSongs2016= {"Hardwired",
+        String[] metallicaSongs2016 = {"Hardwired",
                 "Atlas, Rise!",
                 "Now That We're Dead",
                 "Moth Into Flame",

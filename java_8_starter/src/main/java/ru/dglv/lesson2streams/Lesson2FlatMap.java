@@ -1,14 +1,14 @@
-package ru.dglv.lesson2_streams;
+package ru.dglv.lesson2streams;
 
 import java.util.Arrays;
 import java.util.stream.Stream;
 
-public class Lesson2_FlatMap {
-    public static void main(String[] args){
+public class Lesson2FlatMap {
+    public static void main(String[] args) {
         String[][] members = new String[][]{{"Java", "JavaScript", "SQL"},
-            {"C++", "NoSQL"},
-            {"CSharp", "Angular", "React"},
-            {"Android", "JavaScript", "SQL", "NoSQL"}};
+                {"C++", "NoSQL"},
+                {"CSharp", "Angular", "React"},
+                {"Android", "JavaScript", "SQL", "NoSQL"}};
 
         Stream<String[]> temp = Arrays.stream(members);
 

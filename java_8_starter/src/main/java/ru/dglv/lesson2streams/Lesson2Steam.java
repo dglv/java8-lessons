@@ -1,15 +1,13 @@
-package ru.dglv.lesson2_streams;
+package ru.dglv.lesson2streams;
 
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Arrays;
-import java.util.List;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
-public class Lesson2_Steam {
+public class Lesson2Steam {
     public static void main(String... srgs) throws Exception {
         Path path = Paths.get("C:\\DATA\\Projects\\java_8_starter\\src\\main\\resources\\rawdata.txt");
         String content = new String(Files.readAllBytes(path), StandardCharsets.UTF_8);

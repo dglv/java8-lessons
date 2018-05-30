@@ -1,10 +1,10 @@
-package ru.dglv.lesson2_streams;
+package ru.dglv.lesson2streams;
 
 import java.util.function.Supplier;
 import java.util.stream.Stream;
 
-public class Lesson2_ReuseStreams {
-    public static void main(String[] args){
+public class Lesson2ReuseStreams {
+    public static void main(String[] args) {
         String[] competences = {"Java", "C++", "JavaScript", "Angular", "React"};
 
         Supplier<Stream<String>> streamSupplier = () -> Stream.of(competences);

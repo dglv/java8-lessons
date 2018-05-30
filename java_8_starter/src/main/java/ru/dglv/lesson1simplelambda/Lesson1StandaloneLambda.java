@@ -1,10 +1,9 @@
-package ru.dglv.lesson1_simplelambda;
+package ru.dglv.lesson1simplelambda;
 
 import javax.swing.*;
 import java.util.function.Function;
-import java.util.function.Predicate;
 
-public class Lesson1_Calc {
+public class Lesson1StandaloneLambda {
 
     public static void main(String[] args) {
 
@@ -13,8 +12,7 @@ public class Lesson1_Calc {
         System.out.println(square.apply(5));
         System.out.println(square.apply(10));
 
-        JButton button = new JButton();
-        button.addActionListener(event -> System.out.println(event.getActionCommand()));
-
+        /*JButton button = new JButton();
+        button.addActionListener(event -> System.out.println(event.getActionCommand()));*/
     }
 }

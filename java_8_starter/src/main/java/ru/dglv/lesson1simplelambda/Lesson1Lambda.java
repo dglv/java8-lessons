@@ -1,8 +1,8 @@
-package ru.dglv.lesson1_simplelambda;
+package ru.dglv.lesson1simplelambda;
 
 import java.util.Arrays;
 
-public class Lesson1 {
+public class Lesson1Lambda {
 
     public static void main(String[] args) {
 

@@ -1,11 +1,11 @@
-package ru.dglv.lesson2_streams;
+package ru.dglv.lesson2streams;
 
 import java.util.*;
 import java.util.stream.Collectors;
 
 
-public class Lesson2_Collect {
-    public static void main(String[] args){
+public class Lesson2Collect {
+    public static void main(String[] args) {
         String[] competences = {"Java", "CSharp", "JavaScript", "React", "Android", "SQL"};
 
         List<String> streamAsList = Arrays.stream(competences).collect(Collectors.toList());
